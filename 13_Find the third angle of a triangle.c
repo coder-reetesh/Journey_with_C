@@ -3,7 +3,6 @@
 find the third angle
 *******************************************************************************/
 #include <stdio.h>
-#include<math.h>
 
 int main()
 {
@@ -14,23 +13,6 @@ int main()
     scanf("%d",&angle_2);
     angle_3=180-(angle_1+angle_2);
     printf("Third angle of the triangle will be angle_3 = %d",angle_3);
-
-    // printf("\n-----------------Alternative method using <math.h> header file-----------------\n");
-    
-    // unsigned short int num, result;
-
-    // printf("Enter a number: ");
-    // scanf("%hd", &num);
-
-    // if (num < 0)
-    // {
-    //     printf("Square root of negative number is not defined in real numbers.\n");
-    // }
-    // else
-    // {
-    //     result = sqrt(num);
-    //     printf("Number=%hd Square root is %hd\n", num, result);
-    // }
     
     return 0;
     
