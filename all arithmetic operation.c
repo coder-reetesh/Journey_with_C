@@ -1,5 +1,6 @@
 /******************************************************************************
-Write a c program to enter two number and perform all arithmetic operations
+3.    Write a c program to enter two number and perform 
+all arithmetic operations
 *******************************************************************************/
 #include <stdio.h>
 
