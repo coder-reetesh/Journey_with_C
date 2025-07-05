@@ -1,5 +1,5 @@
 /******************************************************************************
-Write a c program to enter two number and find their sum
+2.    Write a c program to enter two number and find their sum
 *******************************************************************************/
 #include <stdio.h>
 
