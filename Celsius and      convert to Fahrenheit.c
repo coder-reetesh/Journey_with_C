@@ -1,6 +1,6 @@
 /******************************************************************************
 8.  Write a C program to enter temperature in Celsius and 
-    convert to Fahrenheit.
+convert to Fahrenheit.
 *******************************************************************************/
 #include <stdio.h>
 
