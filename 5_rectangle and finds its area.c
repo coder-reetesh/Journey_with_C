@@ -1,5 +1,6 @@
 /******************************************************************************
-Write a c program to enter length and breadth of rectangle and finds its area.
+5.    Write a c program to enter length and breadth of rectangle and
+finds its area.
 *******************************************************************************/
 #include <stdio.h>
 
