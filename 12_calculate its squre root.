@@ -1,5 +1,5 @@
 /******************************************************************************
-12.  Write a C program to enter any number and calculate its squre root.
+12.  Write a C program to enter any number and calculate its square root.
 *******************************************************************************/
 #include <stdio.h>
 #include<math.h>
