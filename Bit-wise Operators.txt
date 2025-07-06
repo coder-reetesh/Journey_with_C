@@ -1,0 +1,33 @@
+Bit-wise Operators:
+-------------------------------------------------------------------------------------------
+19. Write a C program to check Least Significant Bit (LSB) of a number is set or not.
+
+20. Write a C program to check Most Significant Bit (MSB) of a number is set or not.
+
+21. Write a C program to get nth bit of a number.
+
+22. Write a C program to set nth bit of a number.
+
+23. Write a C program to clear nth bit of a number.
+
+24. Write a C program to toggle nth bit of a number.
+
+25. Write a program to get highest set bit of a number.
+
+26. Write a C program to get lowest set bit of a number.
+
+27. Write a C program to count trailing zeros in a binary number.
+
+28. Write a C program to count leading zeros in a binary number.
+
+29. Write a program to lip bits of a binary number swing bitwise operator.
+
+30. Write a C program to count total zeros and ones in a binary number.
+
+31. Write a C program to rotate hits of a given number.
+
+32. Write a program to convert decimal to binary number system using bitwise operator.
+
+33. Write a program to swap two numbers wang bitwise operator.
+
+34. Write a C program to check whether a number is even or odd wing bitwise Operator.
