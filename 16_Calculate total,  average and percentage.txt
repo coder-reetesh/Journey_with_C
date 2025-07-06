@@ -4,11 +4,11 @@
 *******************************************************************************/
 #include <stdio.h>
 
-
 int main()
 {
     float bangla,english,mathematics,physics,chemistry;
     float total,average,percentage;
+    
     printf("Enter the number of bangla=");
     scanf("%f",&bangla);
     
@@ -26,7 +26,8 @@ int main()
     
     total=(bangla+english+mathematics+physics+chemistry);
     average=total/5; // 5 is the number of subjects
-    percentage= ((total/500)*100);
+    percentage= ((total/500)*100); // 5 subjects full marks 100 of each,so 500
+ 
     printf("Total=%.2f\tAverage=%.2f\tPercentage=%.2f%%\n",total,average,percentage);
 
     return 0;
