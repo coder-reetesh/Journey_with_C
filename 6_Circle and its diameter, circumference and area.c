@@ -1,6 +1,6 @@
 /******************************************************************************
 6.    Write a c program to enter radius of a circle and its diameter,
-circumference and area
+circumference and area.
 *******************************************************************************/
 #include <stdio.h>
 
