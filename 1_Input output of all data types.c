@@ -1,5 +1,5 @@
 /******************************************************************************
-1.    Write a to perform input output of all data types
+1. Write a to perform input output of all data types
 *******************************************************************************/
 #include <stdio.h>
 
