@@ -1,0 +1,27 @@
+/******************************************************************************
+25. Write a C program to get highest set bit of a number.
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int num,pos;
+    printf("Enter the num = ");
+    scanf("%d",&num);
+    
+    pos=-1;
+    
+    for(int i=31;i>=0;i--)
+    {
+        if((num>>i) & 1)
+        {
+            pos=i;
+            break;
+        }
+    }
+    if(pos != -1)
+    printf("Highest set bit position at : %d\n ",pos);
+    else
+    printf("No set bit found");
+    return 0;
+}
