@@ -1,0 +1,17 @@
+/******************************************************************************
+24. Write a C program to toggle n-th bit of a number.
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int num,pos;
+    printf("Enter the num = ");
+    scanf("%d",&num);
+    printf("Enter the pos = ");
+    scanf("%d",&pos);
+    num=num^(1<<pos);
+    printf("num=%d",num);
+
+    return 0;
+}
