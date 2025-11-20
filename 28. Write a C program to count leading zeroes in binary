@@ -1,0 +1,31 @@
+/******************************************************************************
+28. Write a C program to count leading zeroes in binary
+*******************************************************************************/
+#include <stdio.h>
+
+int countZero(unsigned int num)
+{
+    if(num==0)
+    {
+        return 32;
+    }
+    int count=0;
+    unsigned int mask=1<<31;
+    
+    while((num & mask)==0)
+    {
+        count++;
+        mask>>=1;
+    }
+    return count;
+}
+int main()
+{
+    unsigned int num;
+    printf("Enter the number: ");
+    scanf("%u",&num);
+    int result=countZero(num);
+    printf("Number of loading zeroes in binary : %d\n",result);
+
+    return 0;
+}
