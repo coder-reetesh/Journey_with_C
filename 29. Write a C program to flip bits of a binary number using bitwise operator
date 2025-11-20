@@ -1,0 +1,29 @@
+/******************************************************************************
+29. Write a C program to flip bits of a binary number using bitwise operator
+*******************************************************************************/
+#include <stdio.h>
+void printBinary(unsigned int num)
+{
+    for(int i=31;i>=0;i--)
+    {
+        unsigned int mask = 1<<i;
+        printf("%d",(num&mask)?1:0);
+    }
+    printf("\n");
+}
+int main()
+{
+    unsigned int num;
+    printf("Enter a number :");
+    scanf("%u",&num);
+    printf("Original number in binary : ");
+    printBinary(num);
+    
+    unsigned int flipped =~num;
+    printf("Flipped number in binary :");
+    printBinary(flipped);
+    
+    printf("Flippednumber in decimal : %u",flipped);
+
+    return 0;
+}
